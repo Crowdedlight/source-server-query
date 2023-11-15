@@ -308,7 +308,7 @@ class SourceQuerySocket {
 
       rule.value = query.slice(offset, query.indexOf(0, offset));
       offset += rule.value.length + 1;
-      rule.value = rule.value.toString();
+      // rule.value = rule.value.toString();
 
       result.push(rule);
     }
